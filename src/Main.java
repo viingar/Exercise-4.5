@@ -5,10 +5,8 @@ import java.util.stream.LongStream;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите a: ");
-        int a = scanner.nextInt();
-        System.out.println("Введите b: ");
-        int b = scanner.nextInt();
+        int a = 10000000;
+        int b = 1000000000;
         System.out.println(IntStream.range(a,b).mapToLong(i -> i).sum());
 
         }
